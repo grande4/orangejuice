@@ -1,0 +1,95 @@
+nav {
+  background-color:#ff8533;
+  /*line-height: 65px;
+  height: 65px;*/
+
+}
+span > a > img{
+  float: left;
+  opacity: .89;
+  width: 255px;
+  height: 74px;
+  padding: 0 0 0 50px;
+
+}
+ul.nav {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul > li > a {
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 100px 0 0;
+	margin: 7px 7px 0 0;
+	font-size: 13px;
+  color: white;
+  float: right;
+  padding-top: 25px;
+  text-decoration: none;
+}
+/*ul > li > a {
+  color: white;
+  list-style: none;*/
+}
+
+img {
+  height:84px;
+  width: 222px;
+}
+
+/*Section Search Bar*/
+div.searchbar  {
+  margin: 4px 169px 0px 0px;
+  float:right;
+  padding-top: 0;
+  height: 50px;
+  width: 150px;
+  height: 100px;
+}
+div > span > input  {
+  padding: 19px 31px 21px 7px;
+  font-size: 20px;
+  text-align: initial;
+  background-color: #dcdcdc;
+
+}
+div > span > a > img {
+  height: 21px;
+  width: 23px;
+  position: absolute;
+  margin-right: 138px;
+  padding: 34px 0 77px 0;
+  top: 77px;
+  right:0px;
+  bottom: 207px;
+  left: 1313px;
+  /*In order to get icon inside of other div use postion
+  absolute and use right(positon) */
+}
+/*SECTION Middle Orange*/
+div > span >img {
+  padding: 100px 0px 0px 110px;
+
+}
+div.wording {
+  color: orange;
+  font-size: 60px;
+  float: right;
+  height: auto;
+  width: auto;
+}
+
+
+/*Section Bottom*/
+
+div.footer {
+  background-color:#33cccc;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  line-height: 65px;
+}
